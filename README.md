@@ -1,0 +1,2 @@
+# bookStoreBasics
+For teaching purposes
