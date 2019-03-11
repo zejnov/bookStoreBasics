@@ -2,7 +2,7 @@
 
 namespace MyBookSopre.Model
 {
-    class BookStore
+    public class BookStore
     {
         public long Id { get; set; }
         public string Name { get; set; }

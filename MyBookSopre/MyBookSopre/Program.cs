@@ -1,4 +1,5 @@
-﻿using MyBookSopre.Service;
+﻿using System;
+using MyBookSopre.Service;
 
 namespace MyBookSopre
 {
@@ -6,7 +7,10 @@ namespace MyBookSopre
     {
         static void Main(string[] args)
         {
-            new BookManagementService().Manage();
+            //new BookManagementService().Manage();
+            var books = new BookCreatingService().Execute();
+            new BookPrintingService().Print();
+            Console.ReadLine();
         }
     }
 }

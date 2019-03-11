@@ -46,7 +46,9 @@
     <Compile Include="Model\BookStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\BookCreatingService.cs" />
     <Compile Include="Service\BookManagementService.cs" />
+    <Compile Include="Service\BookPrintingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
